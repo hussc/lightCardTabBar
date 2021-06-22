@@ -69,6 +69,7 @@
 		E4449654266BBE3A00372DAF /* SemiCardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCardTabBarController.swift; sourceTree = "<group>"; };
 		E4449656266BBE4200372DAF /* CardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTabBarController.swift; sourceTree = "<group>"; };
 		E4449658266BBE4900372DAF /* LightTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTabBarController.swift; sourceTree = "<group>"; };
+		E4A5BE0B2681B6F800865480 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		E403A862266B5BAA00EFFA93 = {
 			isa = PBXGroup;
 			children = (
+				E4A5BE0B2681B6F800865480 /* README.md */,
 				E403A86D266B5BAA00EFFA93 /* LightCardTabBar */,
 				E403A884266B5BAB00EFFA93 /* LightCardTabBarTests */,
 				E403A88F266B5BAB00EFFA93 /* LightCardTabBarUITests */,
