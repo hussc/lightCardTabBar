@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E403A86F266B5BAA00EFFA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A86E266B5BAA00EFFA93 /* AppDelegate.swift */; };
-		E403A871266B5BAA00EFFA93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A870266B5BAA00EFFA93 /* SceneDelegate.swift */; };
 		E403A873266B5BAA00EFFA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A872266B5BAA00EFFA93 /* ViewController.swift */; };
 		E403A876266B5BAA00EFFA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403A874266B5BAA00EFFA93 /* Main.storyboard */; };
 		E403A878266B5BAB00EFFA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E403A877266B5BAB00EFFA93 /* Assets.xcassets */; };
 		E403A87B266B5BAB00EFFA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403A879266B5BAB00EFFA93 /* LaunchScreen.storyboard */; };
 		E403A886266B5BAB00EFFA93 /* LightCardTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A885266B5BAB00EFFA93 /* LightCardTabBarTests.swift */; };
 		E403A891266B5BAB00EFFA93 /* LightCardTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A890266B5BAB00EFFA93 /* LightCardTabBarUITests.swift */; };
+		E403A8A2266B5BC400EFFA93 /* SemiCardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A89F266B5BC400EFFA93 /* SemiCardTabBar.swift */; };
+		E403A8A3266B5BC400EFFA93 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A8A0266B5BC400EFFA93 /* TabBarController.swift */; };
+		E403A8A4266B5BC400EFFA93 /* SpecialCardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403A8A1266B5BC400EFFA93 /* SpecialCardTabBar.swift */; };
+		E4449646266B5CB600372DAF /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449644266B5CB600372DAF /* UIView+Additions.swift */; };
+		E444964A266B5E7F00372DAF /* LightTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449649266B5E7F00372DAF /* LightTabBar.swift */; };
+		E444964C266BA51D00372DAF /* BaseCardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E444964B266BA51D00372DAF /* BaseCardTabBar.swift */; };
+		E4449650266BADBD00372DAF /* CardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E444964F266BADBD00372DAF /* CardTabBar.swift */; };
+		E4449653266BBE3000372DAF /* SpecialTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449652266BBE3000372DAF /* SpecialTabBarController.swift */; };
+		E4449655266BBE3A00372DAF /* SemiCardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449654266BBE3A00372DAF /* SemiCardTabBarController.swift */; };
+		E4449657266BBE4200372DAF /* CardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449656266BBE4200372DAF /* CardTabBarController.swift */; };
+		E4449659266BBE4900372DAF /* LightTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4449658266BBE4900372DAF /* LightTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,6 @@
 /* Begin PBXFileReference section */
 		E403A86B266B5BAA00EFFA93 /* LightCardTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightCardTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E403A86E266B5BAA00EFFA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E403A870266B5BAA00EFFA93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E403A872266B5BAA00EFFA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E403A875266B5BAA00EFFA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E403A877266B5BAB00EFFA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		E403A88C266B5BAB00EFFA93 /* LightCardTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightCardTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E403A890266B5BAB00EFFA93 /* LightCardTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightCardTabBarUITests.swift; sourceTree = "<group>"; };
 		E403A892266B5BAB00EFFA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E403A89F266B5BC400EFFA93 /* SemiCardTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiCardTabBar.swift; sourceTree = "<group>"; };
+		E403A8A0266B5BC400EFFA93 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E403A8A1266B5BC400EFFA93 /* SpecialCardTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialCardTabBar.swift; sourceTree = "<group>"; };
+		E4449644266B5CB600372DAF /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		E4449649266B5E7F00372DAF /* LightTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTabBar.swift; sourceTree = "<group>"; };
+		E444964B266BA51D00372DAF /* BaseCardTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCardTabBar.swift; sourceTree = "<group>"; };
+		E444964F266BADBD00372DAF /* CardTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTabBar.swift; sourceTree = "<group>"; };
+		E4449652266BBE3000372DAF /* SpecialTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTabBarController.swift; sourceTree = "<group>"; };
+		E4449654266BBE3A00372DAF /* SemiCardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCardTabBarController.swift; sourceTree = "<group>"; };
+		E4449656266BBE4200372DAF /* CardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTabBarController.swift; sourceTree = "<group>"; };
+		E4449658266BBE4900372DAF /* LightTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				E403A86E266B5BAA00EFFA93 /* AppDelegate.swift */,
-				E403A870266B5BAA00EFFA93 /* SceneDelegate.swift */,
 				E403A872266B5BAA00EFFA93 /* ViewController.swift */,
-				E403A874266B5BAA00EFFA93 /* Main.storyboard */,
-				E403A877266B5BAB00EFFA93 /* Assets.xcassets */,
-				E403A879266B5BAB00EFFA93 /* LaunchScreen.storyboard */,
-				E403A87C266B5BAB00EFFA93 /* Info.plist */,
+				E444965A266BBE7C00372DAF /* Extensions */,
+				E4449651266BBE2300372DAF /* Controllers */,
+				E403A89E266B5BC400EFFA93 /* Tab Bar */,
+				E444965B266BBF4700372DAF /* Resources */,
 			);
 			path = LightCardTabBar;
 			sourceTree = "<group>";
@@ -128,6 +147,49 @@
 			path = LightCardTabBarUITests;
 			sourceTree = "<group>";
 		};
+		E403A89E266B5BC400EFFA93 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				E444964B266BA51D00372DAF /* BaseCardTabBar.swift */,
+				E403A8A1266B5BC400EFFA93 /* SpecialCardTabBar.swift */,
+				E403A89F266B5BC400EFFA93 /* SemiCardTabBar.swift */,
+				E444964F266BADBD00372DAF /* CardTabBar.swift */,
+				E4449649266B5E7F00372DAF /* LightTabBar.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		E4449651266BBE2300372DAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E403A8A0266B5BC400EFFA93 /* TabBarController.swift */,
+				E4449652266BBE3000372DAF /* SpecialTabBarController.swift */,
+				E4449654266BBE3A00372DAF /* SemiCardTabBarController.swift */,
+				E4449656266BBE4200372DAF /* CardTabBarController.swift */,
+				E4449658266BBE4900372DAF /* LightTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E444965A266BBE7C00372DAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4449644266B5CB600372DAF /* UIView+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E444965B266BBF4700372DAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E403A874266B5BAA00EFFA93 /* Main.storyboard */,
+				E403A877266B5BAB00EFFA93 /* Assets.xcassets */,
+				E403A879266B5BAB00EFFA93 /* LaunchScreen.storyboard */,
+				E403A87C266B5BAB00EFFA93 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +206,8 @@
 			dependencies = (
 			);
 			name = LightCardTabBar;
+			packageProductDependencies = (
+			);
 			productName = LightCardTabBar;
 			productReference = E403A86B266B5BAA00EFFA93 /* LightCardTabBar.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +279,8 @@
 				Base,
 			);
 			mainGroup = E403A862266B5BAA00EFFA93;
+			packageReferences = (
+			);
 			productRefGroup = E403A86C266B5BAA00EFFA93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E444964C266BA51D00372DAF /* BaseCardTabBar.swift in Sources */,
 				E403A873266B5BAA00EFFA93 /* ViewController.swift in Sources */,
+				E403A8A2266B5BC400EFFA93 /* SemiCardTabBar.swift in Sources */,
+				E4449655266BBE3A00372DAF /* SemiCardTabBarController.swift in Sources */,
+				E4449653266BBE3000372DAF /* SpecialTabBarController.swift in Sources */,
+				E4449646266B5CB600372DAF /* UIView+Additions.swift in Sources */,
+				E4449659266BBE4900372DAF /* LightTabBarController.swift in Sources */,
+				E444964A266B5E7F00372DAF /* LightTabBar.swift in Sources */,
 				E403A86F266B5BAA00EFFA93 /* AppDelegate.swift in Sources */,
-				E403A871266B5BAA00EFFA93 /* SceneDelegate.swift in Sources */,
+				E403A8A3266B5BC400EFFA93 /* TabBarController.swift in Sources */,
+				E403A8A4266B5BC400EFFA93 /* SpecialCardTabBar.swift in Sources */,
+				E4449650266BADBD00372DAF /* CardTabBar.swift in Sources */,
+				E4449657266BBE4200372DAF /* CardTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU6999229;
-				INFOPLIST_FILE = LightCardTabBar/Info.plist;
+				INFOPLIST_FILE = LightCardTabBar/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +533,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU6999229;
-				INFOPLIST_FILE = LightCardTabBar/Info.plist;
+				INFOPLIST_FILE = LightCardTabBar/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
