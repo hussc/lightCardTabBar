@@ -6,9 +6,12 @@ An expiremental project exploring different types of custom-tabbar styles, scree
 
 I'm kinda lazy, I'll upload the screenshots at the end of the day inshallah :))
 
-Light Style |  Special  | SemiCard | Card
-:-------------------------:|:-------------------------:
-![](Screenshots/Light.png)  |  ![](Screenshots/Special.png) | ![](Screenshots/SemiCard.png) | ![](Screenshots/Card.png)
+<p align="center" width="100%">
+    <img width="25%" src="Screenshots/Light.png"> 
+    <img width="25%" src="Screenshots/Light.png"> 
+    <img width="25%" src="Screenshots/Light.png"> 
+    <img width="25%" src="Screenshots/Light.png"> 
+</p>
 
 ## Implementation
 
