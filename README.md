@@ -8,9 +8,9 @@ I'm kinda lazy, I'll upload the screenshots at the end of the day inshallah :))
 
 <p align="center" width="100%">
     <img width="25%" src="Screenshots/Light.png"> 
-    <img width="25%" src="Screenshots/Light.png"> 
-    <img width="25%" src="Screenshots/Light.png"> 
-    <img width="25%" src="Screenshots/Light.png"> 
+    <img width="25%" src="Screenshots/Special.png"> 
+    <img width="25%" src="Screenshots/SemiCard.png"> 
+    <img width="25%" src="Screenshots/Card.png"> 
 </p>
 
 ## Implementation
