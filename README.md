@@ -6,6 +6,32 @@ An expiremental project exploring different types of custom-tabbar styles, scree
 
 I'm kinda lazy, I'll upload the screenshots at the end of the day inshallah :))
 
+<table>
+  <tr>
+    <td> <img src="img1.png"  alt="1" width = 360px height = 640px ></td>
+
+    <td><img src="./A.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+   <tr>
+      <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
+
+      <td><img src="./B.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+  <tr>
+     <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
+
+     <td><img src="./C.png" align="right" alt="4" width = 360px height = 640px>
+ </td>
+ </tr>
+ <tr>
+    <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
+
+    <td><img src="./D.png" align="right" alt="4" width = 360px height = 640px>
+</td>
+</tr>
+</table>
+
 ## Implementation
 
 The implementation relies on two main components:
